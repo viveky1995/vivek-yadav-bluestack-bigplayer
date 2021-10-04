@@ -1,0 +1,70 @@
+.app{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+  }
+  .app-header{
+    background-color: rgba(8, 10, 31, 1);;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .app-body{
+    background-color: #ffffff;
+    height: 800px;
+  }
+  
+  .body-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .body-heading{
+    color: rgba(8, 10, 31, 1);
+  }
+  .tabs-layout{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .tab-item{
+    cursor: pointer;
+  }
+  h4 {
+    margin: 10px;
+  }
+
+  .tab-item{
+    display: flex;
+    justify-content: center;
+    min-width : 180px;
+    color:gray;  
+  } 
+  .logo-img{
+    margin-left: 86px;
+    margin-top: 2px;
+    width: 100px;
+    height: 45px;
+  }
+.lang-btn{
+  float :right;
+  cursor : pointer;
+  margin : 10px 10px 0px 0px;
+}
+  /*................CSS for Mobile devices.................................*/
+
+@media only screen and (max-width: 600px) {
+
+    .body-heading{
+      text-align :center
+     }
+ 
+    .tabs-layout{
+     justify-content: center;
+    }
+    
+ }

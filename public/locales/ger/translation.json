@@ -1,0 +1,22 @@
+{
+    "Main_Heading" : "Kampagnen verwalten",
+    "Tab_One" : "Kommende Kampagnen",
+    "Tab_Two" : "Live-Kampagnen",
+    "Tab_Three" : "Vergangene Kampagnen",
+    "Head_One" : "DATUM",
+    "Head_Two" : "KAMPAGNE",
+    "Head_Three" : "AUSSICHT",
+    "Head_Four" : "AKTIONEN",
+    "Msg_One" : ", Vor Tagen",
+    "Msg_Two" : ", Tage im Voraus",
+    "Msg_Three" : "Heute",
+    "Msg_Four" : "Preise anzeigen",
+    "Msg_Five" : "Prüfbericht",
+    "Msg_Six" : "Erneut planen",
+    "Msg_Eight" : "Nah dran",
+    "Popup_Head" : "Preisgestaltung",
+    "Week_Price" : "1 Woche - 1 Monat",
+    "Month_Price" : "6 Monate",
+    "Year_Price" : "1 Jahr"
+
+}

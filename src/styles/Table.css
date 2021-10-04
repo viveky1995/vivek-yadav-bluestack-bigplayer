@@ -1,0 +1,113 @@
+table {
+  border-collapse: collapse; 
+  width: 100%;
+  table-layout: fixed;
+  background-color: #f0f0f0;
+  padding : 0px 2px;
+  border : 1px solid #f0f0f0;
+  border-radius: 4px;
+}
+table .t-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom : 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding : 5px;
+  font-size: 12px;
+  cursor : pointer;
+  font-weight: bold;
+  color : #808080; 
+}
+
+table .t-head {
+  font-size: 1em;
+  min-width : 215px;
+  margin: 5px;
+  text-align: left;
+}
+
+.t-body{
+  background-color: #ffffff;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 600px) {
+ 
+ .campaign-actions{
+     min-width: 0px;
+  }
+ .campaign-actions .campaign-section{
+    justify-content: flex-end;
+    margin : 10px ;
+  }  
+    
+  table {
+   border: 0;
+   }
+   
+   table thead{
+    display : none;
+   }
+  
+  table .t-head {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table .t-row {
+    border-bottom: 3px solid #f0f0f0;
+    border: 2px solid #f0f0f0;
+
+    display: block;
+    margin-bottom: 1em;
+    background-color: #f8f8f8;
+  }
+  
+  table .t-data {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    padding: 1em;
+  }
+  
+  table .t-data::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table .t-data:last-child {
+    border-bottom: 0;
+  }
+  .popup-content{
+      min-width :200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+/*body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}*/

@@ -1,0 +1,22 @@
+{
+    "Main_Heading" : "Manage Campaigns",
+    "Tab_One" : "Upcoming Campaigns",
+    "Tab_Two" : "Live Campaigns",
+    "Tab_Three" : "Past Campaigns",
+    "Head_One" : "DATE",
+    "Head_Two" : "CAMPAIGN",
+    "Head_Three" : "VIEW",
+    "Head_Four" : "ACTIONS",
+    "Msg_One" : ", Days Ago",
+    "Msg_Two" : ", Days Ahead",
+    "Msg_Three" : "Today",
+    "Msg_Four" : "View Pricing",
+    "Msg_Five" : "Report",
+    "Msg_Six" : "Schedule again",
+    "Msg_Eight" : "Close",
+    "Popup_Head" : "Pricing",
+    "Week_Price" : "1 Week- 1 Month",
+    "Month_Price" : "6 Months",
+    "Year_Price" : "1 Year"
+
+}
