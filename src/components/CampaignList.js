@@ -21,13 +21,15 @@ export default function CampaignList(props) {
       const diffTime = Math.abs(currentDate - createdOn);
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));  
       if(createdOn < currentDate && diffDays !=1){
-        return "Past";
+        return "Past"
       }else if(createdOn > currentDate && diffDays !=1){
-       return "Upcoming";
+       return "Upcoming"
       }else{
-        return "Live";
+        return "Live"
       }
   }
+  
+  const campaignData = localStorage.getItem('campaignData') ?  JSON.parse(localStorage.getItem('campaignData')) : data ;
   return (
     <table className = "body-panel">
     <thead>
@@ -39,7 +41,7 @@ export default function CampaignList(props) {
       </tr>
     </thead>
     <tbody class = "t-body campaign-list">
-        {data && data.campaign && data.campaign[0].body && data.campaign[0].body.map((campaign) => (
+        {campaignData && campaignData.map((campaign) => (
           currentActiveTab === filterCampaign(campaign) ? <CampaignItem key={campaign.createdOn + Math.floor(1000 + Math.random() * 9000)} campaign = {campaign}  updateFilterTab = {updateFilterTab}></CampaignItem> : ''
         ))}
      </tbody>

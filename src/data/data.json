@@ -1,12 +1,8 @@
-{
-  "campaign": [
-    {
-      "id": "987654321",
-      "body": [
+ [
         {
           "name": "Auto Chess",
           "region": "US",
-          "createdOn": 1633631400000,
+          "createdOn": 1633444460200,
           "price": 23,
           "csv": "Some CSV link for Auto Chess",
           "report": "Some report link for Auto Chess",
@@ -15,7 +11,7 @@
         {
           "name": "Auto Chess 2",
           "region": "US",
-          "createdOn": 1593430776691,
+          "createdOn": 1633444487223,
           "price": 23,
           "csv": "Some CSV link for Auto Chess",
           "report": "Some report link for Auto Chess",
@@ -24,7 +20,7 @@
         {
           "name": "PUBG MOBILE",
           "region": "CH",
-          "createdOn": 1592912516943,
+          "createdOn": 1633444515384,
           "price": 120,
           "csv": "Some CSV link for PUBG MOBILE",
           "report": "Some report link for PUBG MOBILE",
@@ -33,7 +29,7 @@
         {
           "name": "Flow Free",
           "region": "FR",
-          "createdOn": 1638469800000,
+          "createdOn": 1633444532269,
           "price": 40,
           "csv": "Some CSV link for Flow Free",
           "report": "Some report link for Flow Free",
@@ -42,7 +38,7 @@
         {
           "name": "Garena Free Fire",
           "region": "CH",
-          "createdOn": 1638469800000,
+          "createdOn": 1633444428487,
           "price": 110,
           "csv": "Some CSV link for Garena Free Fire",
           "report": "Some report link for Garena Free Fire",
@@ -51,7 +47,7 @@
         {
           "name": "MORTAL KOMBAT 2",
           "region": "US",
-          "createdOn": 1592028584617,
+          "createdOn": 1633444407969,
           "price": 200,
           "csv": "Some CSV link for MORTAL KOMBAT",
           "report": "Some report link for MORTAL KOMBAT",
@@ -60,7 +56,7 @@
         {
           "name": "Summoners War",
           "region": "US",
-          "createdOn": 1638469800000,
+          "createdOn": 1633444370153,
           "price": 90,
           "csv": "Some CSV link for Summoners War",
           "report": "Some report link for Summoners War",
@@ -69,7 +65,7 @@
         {
           "name": "Need for Speed No Limits",
           "region": "US",
-          "createdOn": 1633372200000,
+          "createdOn": 1633456269739,
           "price": 500,
           "csv": "Some CSV link for Need for Speed No Limits",
           "report": "Some report link for Need for Speed No Limits",
@@ -78,7 +74,7 @@
         {
           "name": "Shadow Fight 2",
           "region": "JP",
-          "createdOn": 1633372200000,
+          "createdOn": 1633444289659,
           "price": 60,
           "csv": "Some CSV link for Shadow Fight 3",
           "report": "Some report link for Shadow Fight 3",
@@ -87,7 +83,7 @@
         {
           "name": "Shadow Fight 2",
           "region": "JP",
-          "createdOn": 1633372200000,
+          "createdOn": 1633444332770,
           "price": 60,
           "csv": "Some CSV link for Shadow Fight 3",
           "report": "Some report link for Shadow Fight 3",
@@ -96,13 +92,11 @@
         {
           "name": "Shadow Fight 2",
           "region": "JP",
-          "createdOn": 1633372200000,
+          "createdOn": 1633444242877,
           "price": 60,
           "csv": "Some CSV link for Shadow Fight 3",
           "report": "Some report link for Shadow Fight 3",
           "image_url": "Bitmap5.png"
         }
       ]
-    }
-  ]
-}
+    
