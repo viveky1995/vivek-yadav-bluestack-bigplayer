@@ -40,13 +40,6 @@ table .t-head {
  .campaign-actions .campaign-section{
     justify-content: flex-end;
     margin : 10px ;
-  }  
-    
-  table {
-   border: 0;
-   }
-   
-   table thead{
     display : none;
    }
   
