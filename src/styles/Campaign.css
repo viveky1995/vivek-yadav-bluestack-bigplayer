@@ -1,7 +1,6 @@
 .campaign-heading{
     font-weight: bold;
     background-color: #f0f0f0;
-    justify-content: flex-start !important;
     
   } 
   .sub-detail{
@@ -25,8 +24,8 @@
   }
   .campaign-actions{
     display: flex;
-    justify-content: space-around;
-    min-width: 330px;    
+    justify-content: space-between;
+    flex-wrap : wrap;    
   
   } 
   p{

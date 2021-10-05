@@ -35,7 +35,7 @@ export default function CampaignList(props) {
         <th className = "t-head campaign-heading-tab">{t("Head_One")}</th>
         <th className = "t-head campaign-heading-tab">{t("Head_Two")}</th>
         <th className = "t-head campaign-heading-tab">{t("Head_Three")}</th>
-        <th className = "t-head campaign-heading-tab">{t("Head_Four")}</th>
+        <th className = "t-head campaign-heading-tab" style = {{"margin-right" :"203px"}}>{t("Head_Four")}</th>
       </tr>
     </thead>
     <tbody class = "t-body campaign-list">

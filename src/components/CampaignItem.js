@@ -51,17 +51,17 @@ export default function CampaignItem(props) {
         </td>
 
         <td className = "t-data campaign-actions" data-label="ACTIONS">     
-            <div className = "campaign-section">
+            <div className = "campaign-section" style = {{"margin-right": "7px"}}>
                 <img  src={require(`${'../images/file.png'}`).default} className = "action-icons" alt=""/>
                  <p>CSV</p>
             </div>
 
-            <div className = "campaign-section">
+            <div className = "campaign-section" style = {{"margin-right": "7px"}}>
                 <img  src={report} className = "action-icons"/>
                 <p>{t("Msg_Five")}</p>
             </div>
 
-            <div className = "campaign-section" onClick = {switchCalendarCheck}>
+            <div className = "campaign-section" onClick = {switchCalendarCheck} style = {{"margin-right": "7px"}}>
                 <img  src={calendar} className = "action-icons" />
                 <p>{t("Msg_Six")}</p>
                 {showCalendarModal ? <ModalComponent showModal ={showCalendarModal ? 'Calendar' : ''} switchModalCallback = {switchCalendarCheck} campaign = {campaign} updateFilterTab = {updateFilterTab}></ModalComponent> : ''}

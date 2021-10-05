@@ -22,7 +22,7 @@ table .t-row {
 
 table .t-head {
   font-size: 1em;
-  min-width : 215px;
+  /*min-width : 215px;*/
   margin: 5px;
   text-align: left;
 }
@@ -32,7 +32,7 @@ table .t-head {
   padding: 0px 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
  
  .campaign-actions{
      min-width: 0px;
@@ -93,21 +93,3 @@ table .t-head {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* general styling */
-/*body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.25;
-}*/
