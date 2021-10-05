@@ -39,7 +39,7 @@ export default function CampaignList(props) {
       </tr>
     </thead>
     <tbody class = "t-body campaign-list">
-        {data && data.map((campaign) => (
+        {data && data.campaign && data.campaign[0].body && data.campaign[0].body.map((campaign) => (
           currentActiveTab === filterCampaign(campaign) ? <CampaignItem key={campaign.createdOn + Math.floor(1000 + Math.random() * 9000)} campaign = {campaign}  updateFilterTab = {updateFilterTab}></CampaignItem> : ''
         ))}
      </tbody>
